@@ -1,0 +1,10 @@
+{
+    "optipng": {
+        "use": true,
+        "level": 3
+    },
+    "jpegoptim": {
+        "use": true,
+        "options": "--strip-all"
+    }
+}

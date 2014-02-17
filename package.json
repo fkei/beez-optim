@@ -1,0 +1,53 @@
+{
+    "name": "beez-optim",
+    "version": "0.1.1",
+    "description": "beez-optim makes specify images optimize automatically in build process.",
+    "main": "lib/index.js",
+    "bin": {
+        "beez-optim": "bin/beez-optim.js"
+    },
+    "scripts": {
+        "test": "mocha tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fkei/beez-optim"
+    },
+    "keywords": [
+        "node",
+        "beezlib",
+        "beez",
+        "optipng",
+        "jpegoptim"
+    ],
+    "author": {
+        "name": "fkei",
+        "email": "kei.topaz@gmail.com"
+    },
+    "contributors": [],
+    "homepage": "https://github.com/fkei/beez-optim",
+    "license": {
+        "type": "MIT",
+        "url": "https://raw.github.com/fkei/beez-optim/master/LICENSE"
+    },
+    "bugs": {
+        "email": "kei.topaz@gmail.com",
+        "url": "https://github.com/fkei/beez-optim/issues"
+    },
+    "dependencies": {
+        "colors": "*",
+        "commander": "*",
+        "underscore": "*",
+        "beezlib": "*"
+    },
+    "devDependencies": {
+        "jsdoc": "~3.2.2",
+        "jshint": "~2.3.0",
+        "mocha": "~1.14.0",
+        "chai": "~1.9.0"
+    },
+    "engines": {
+        "node": "~0.10.1",
+        "npm": "~1.1.0"
+    }
+}

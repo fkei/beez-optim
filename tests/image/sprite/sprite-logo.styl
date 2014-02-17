@@ -1,0 +1,35 @@
+.sprite-logo {
+  background: url( 'sprite-logo@10x.png' ) no-repeat;
+  background-size: 200px 200px;
+}
+
+.sprite-logo.sprite-logo-foo {
+  width: 100px;
+  height: 100px;
+  background-position: 0 0;
+}
+
+.sprite-logo.sprite-logo-fuga {
+  width: 100px;
+  height: 100px;
+  background-position: -100px 0;
+}
+
+.sprite-logo.sprite-logo-hoge {
+  width: 100px;
+  height: 100px;
+  background-position: 0 -100px;
+}
+
+
+
+@media (min--moz-device-pixel-ratio: 2),
+(-o-min-device-pixel-ratio: 2/1),
+(-webkit-min-device-pixel-ratio: 2),
+(min-device-pixel-ratio: 2) {
+.sprite-logo {
+  background: url( 'sprite-logo@20x.png' ) no-repeat;
+  background-size: 200px 200px;
+}
+
+}
