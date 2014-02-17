@@ -1,6 +1,8 @@
 beez-optim
 ==========
 
+![Travis CI](https://travis-ci.org/fkei/beez-optim.png?branch=master)
+
 # About
 
 特定のディレクトリを指定して、optipng,jpegoptimを実行し画像を圧縮するコマンドです。
