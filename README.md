@@ -1,7 +1,6 @@
 beez-optim
 ==========
 
-![Travis CI](https://travis-ci.org/fkei/beez-optim.png?branch=master)
 
 # About
 
