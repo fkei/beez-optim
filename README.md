@@ -4,9 +4,16 @@ beez-optim
 
 # About
 
-特定のディレクトリを指定して、optipng,jpegoptimを実行し画像を圧縮するコマンドです。
+特定のディレクトリを指定して、`optipng` `jpegoptim` `pngquant` を実行し画像を圧縮するコマンドです。
 
 > 拡張子 `.png` `.jpg` `.jpeg` で画像判定します。
+
+
+# deps
+
+- [jpegoptim](https://github.com/tjko/jpegoptim)
+- [optipng](http://optipng.sourceforge.net/)
+- [pngquant](http://pngquant.org/)
 
 # Install
 
@@ -33,6 +40,10 @@ $ npm test
     "jpegoptim": {
         "use": true,
         "options": "--strip-all"
+    },
+    pngquant: {
+        use: false,
+        options: "--ext .png -f -v"
     }
 }
 ```
@@ -51,13 +62,17 @@ $ beez-optim -h
     -c --config <config>      configuration file.
     example config data:
         {
-          optipng: {
-            use: true,
-            level: 2
+          "optipng": {
+            "use": true,
+            "level": 2
           },
-          jpegoptim: {
-            use: true,
-            options: '--strip-all'
+          "jpegoptim": {
+            "use": true,
+            "options": '--strip-all'
+          },
+          "pngquant": {
+            "use": false,
+            "options": "--ext .png -f -v"
           }
         }
 

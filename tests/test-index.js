@@ -29,6 +29,10 @@ describe('index.js', function () {
             jpegoptim: {
                 use: true,
                 options: '--strip-all'
+            },
+            pngquant: {
+                use: true,
+                options: "--ext .png -f -v"
             }
         };
 

@@ -18,7 +18,8 @@
         "beezlib",
         "beez",
         "optipng",
-        "jpegoptim"
+        "jpegoptim",
+        "pngquant"
     ],
     "author": {
         "name": "fkei",
