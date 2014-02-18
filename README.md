@@ -6,6 +6,8 @@ beez-optim
 
 特定のディレクトリを指定して、optipng,jpegoptimを実行し画像を圧縮するコマンドです。
 
+> 拡張子 `.png` `.jpg` `.jpeg` で画像判定します。
+
 # Install
 
 ```sh
