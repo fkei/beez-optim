@@ -58,6 +58,7 @@ $ beez-optim -h
   Options:
 
     -h, --help                output usage information
+    -p --limit <limit>        process limit default=10
     -s --srcdir <srcdir>      Source directory root path.
     -c --config <config>      configuration file.
     example config data:
